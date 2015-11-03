@@ -1,0 +1,131 @@
+
+* {
+    word-break: break-all;
+    word-wrap: break-word;
+}
+div, p, form, h1, h2, h3, h4, h5, h6, input, textarea, span, label {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #fff none repeat scroll 0 0;
+    color: #676767;
+    font-family: "Microsoft YaHei","微软雅黑";
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+input, textarea {
+    font-family: "Microsoft YaHei","微软雅黑";
+    font-size: 16px;
+}
+textarea {
+    outline: medium none;
+    resize: none;
+}
+dl, dd, dt, ul, li, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    outline: medium none;
+    text-decoration: none;
+}
+img {
+    vertical-align: middle;
+}
+i {
+    font-style: normal;
+}
+.infolist {
+    box-sizing: border-box;
+    clear: both;
+    color: #494949;
+    float: left;
+    font-size: 14px;
+    margin-bottom: 11px;
+    min-height: 38px;
+    padding-left: 5em;
+    position: relative;
+    width: 100%;
+}
+lable {
+    height: 41px;
+    left: 0;
+    line-height: 22px;
+    overflow: hidden;
+    padding: 8px 0;
+    position: absolute;
+    top: 0;
+    width: 5em;
+}
+.infolist .liststyle span {
+    background: white none repeat scroll 0 0;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 10px;
+    margin-right: 9px;
+    padding: 0 0 0 8px;
+    position: relative;
+}
+.infolist .liststyle span i {
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    padding-right: 30px;
+    position: relative;
+}
+.infolist .liststyle span i::after {
+    background-image: url("../img/jt_nor.png");
+    background-position: 0 center;
+    background-repeat: no-repeat;
+    background-size: 10px auto;
+    content: "";
+    display: block;
+    height: 36px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+}
+.infolist .liststyle span ul {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: white none repeat scroll 0 0;
+    border-color: -moz-use-text-color #e8e8e8 #e8e8e8;
+    border-image: none;
+    border-radius: 0 0 5px 5px;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    display: none;
+    left: -1px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 36px;
+    width: 100%;
+    z-index: 10;
+}
+.infolist .liststyle span ul li {
+    border-top: 1px solid #e8e8e8;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+}
+.infolist .liststyle span ul li:first-child {
+    border-top: 0 none;
+}
+.infolist .liststyle span ul li a {
+    color: #494949;
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 8px;
+}
