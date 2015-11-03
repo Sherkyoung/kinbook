@@ -1,0 +1,219 @@
+
+.header {
+    background: #4c4c4c none repeat scroll 0 0;
+    height: 43px;
+    min-width: 480px;
+    position: fixed;
+    width: 100%;
+}
+.signUp {
+    color: #787d82;
+    cursor: pointer;
+    font-size: 18px;
+    position: absolute;
+    right: 100px;
+    top: 9px;
+}
+.signIn {
+    color: #787d82;
+    cursor: pointer;
+    font-size: 17px;
+    position: absolute;
+    right: 51px;
+    top: 11px;
+}
+.backdrop {
+    background: black none repeat scroll 0 0;
+    cursor: not-allowed;
+    height: 100%;
+    opacity: 0.61;
+    position: fixed;
+    width: 100%;
+}
+.signInDiv {
+    background: white none repeat scroll 0 0;
+    border-radius: 6px;
+    display: none;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 307px;
+    width: 649px;
+    z-index: 99;
+}
+.featured {
+    background-color: #aaaaaa;
+    background-image: linear-gradient(to bottom, #aaa, #eaeeee);
+    height: 200px;
+    min-width: 480px;
+    top: 43px;
+    width: 100%;
+}
+.featured .swiper-slide {
+    backface-visibility: hidden;
+    border-radius: 5px;
+    height: 160px;
+    margin-top: 22px;
+    width: 273px;
+}
+.uporIn {
+    border-bottom: 1px solid #d0d6d9;
+    font-size: 16px;
+    height: 32px;
+    margin: 0 auto;
+    width: 94%;
+}
+.in {
+    color: #7b7a7b;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 32px;
+    text-align: center;
+    width: 54px;
+}
+.up {
+    background: white none repeat scroll 0 0;
+    border-bottom: 1px solid #e65e42;
+    color: #7b7a7b;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 32px;
+    text-align: center;
+    width: 54px;
+}
+.signClose {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+}
+.formDivReg {
+    display: inline-block;
+    margin-top: 28px;
+    width: 374px;
+}
+.formDivReg form {
+    width: 100%;
+}
+.formInput {
+    height: 39px;
+    margin: 23px auto 0;
+    width: 302px;
+}
+.formInput input:focus {
+    border: 1px solid #98a1a6;
+}
+.signUpDiv {
+    background: #6435c9 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 43px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 275px;
+}
+.formInput input {
+    border: 1px solid #d0d6d9;
+    border-radius: 6px;
+    padding: 10px;
+    width: 280px;
+}
+.thirdPart {
+    display: inline-block;
+    height: 300px;
+    margin-left: 53px;
+    width: 163px;
+}
+.other {
+    height: 42px;
+    margin-top: 14px;
+    width: 100%;
+}
+.other span {
+    color: white;
+    float: right;
+    font-size: 12px;
+    margin: 14px 28px 0 0;
+    width: 78px;
+}
+.sina {
+    background: rgba(0, 0, 0, 0) url("../img/btn.png") repeat scroll -1px -600px;
+    margin-top: 73px;
+}
+.qq {
+    background: rgba(0, 0, 0, 0) url("../img/btn.png") repeat scroll -1px -650px;
+}
+.weChat {
+    background: rgba(0, 0, 0, 0) url("../img/btn.png") repeat scroll -213px -1250px;
+}
+.middleLine {
+    border-left: 1px solid;
+    color: #d0d6d9;
+    display: inline-block;
+    height: 266px;
+    position: absolute;
+    right: 265px;
+    top: 50px;
+    width: 2px;
+}
+.middleLine div {
+    background: white none repeat scroll 0 0;
+    font-size: 20px;
+    left: -7px;
+    position: absolute;
+    top: 152px;
+}
+.formDivSignUp {
+    display: inline-block;
+    margin-top: 28px;
+    vertical-align: top;
+    width: 374px;
+}
+.loginAction {
+    font-size: 13px;
+    margin: 8px auto;
+    width: 302px;
+}
+.remember {
+    display: inline-block;
+}
+.remember input {
+    width: 35px;
+}
+.findPwd {
+    display: inline-block;
+    float: right;
+}
+.errorPwd {
+    display: none;
+    line-height: 16px;
+    margin: 3px auto;
+    width: 302px;
+}
+.errorIcon {
+    background: rgba(0, 0, 0, 0) url("../img/btn.png") repeat scroll -1002px -782px;
+    display: inline-block;
+    height: 24px;
+    margin-top: -3px;
+    position: absolute;
+    width: 24px;
+}
+.errorInfo {
+    color: #f01400;
+    display: inline-block;
+    height: 10px;
+    left: 62px;
+    margin-top: 1px;
+    position: absolute;
+}
+.pwdJ {
+    display: none;
+}
+.pwdJ div {
+    color: #f01400;
+    left: 42px;
+    margin-top: 3px;
+    position: absolute;
+}

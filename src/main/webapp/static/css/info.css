@@ -1,0 +1,136 @@
+
+.mainLeft {
+    height: 287px;
+}
+.touXiang {
+    border: 1px solid;
+    border-radius: 60px;
+    height: 120px;
+    left: 205px;
+    overflow: hidden;
+    position: absolute;
+    top: 48px;
+    width: 120px;
+}
+.touXiang img {
+    height: 100%;
+    width: 100%;
+}
+.changeP {
+    left: 222px;
+    position: absolute;
+    top: 179px;
+}
+.changeP img {
+    display: inline-block;
+    width:22px
+}
+.changeP div {
+    display: inline-block;
+}
+.upload {
+    left: 206px;
+    position: absolute;
+    top: 227px;
+    width: 119px;
+}
+.upload button {
+    width: 100%;
+}
+.mainRight {
+    height: 422px;
+}
+.uniqueInfo {
+    border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+    border-top: 1px solid rgba(34, 36, 38, 0.15);
+}
+.otherInfo {
+    margin-top: 29px;
+}
+.job {
+    margin-bottom: 23px;
+}
+.job > div {
+    left: 52px;
+}
+.edu {
+    margin-bottom: 23px;
+}
+.edu > div {
+    left: 81px;
+}
+.edu span {
+}
+.uniqueFont {
+    background: white none repeat scroll 0 0;
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+    width: 66px;
+}
+.kindleEmail {
+    margin: 24px 0;
+}
+.otherFont {
+    background: white none repeat scroll 0 0;
+    font-weight: bold;
+    position: absolute;
+    top: 95px;
+    width: 63px;
+}
+.sexy {
+}
+.infolist label {
+}
+.ui.inline.dropdown {
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    border-radius: 0.285714rem;
+    height: 40px;
+    line-height: 34px;
+    margin-left: 81px;
+    text-align: center;
+    width: 147px;
+}
+.rightUp {
+    margin-top: 37px;
+    text-align: center;
+    width: 100%;
+}
+.rightUp button {
+    width: 221px;
+}
+.left {
+}
+.right {
+}
+.liststyle {
+    margin-left: 43px;
+}
+.inline {
+}
+.date {
+    height: 43px;
+    line-height: 43px;
+    margin-bottom: 15px;
+}
+.date span {
+    display: inline-block;
+}
+#pickDate {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+    border-image: none;
+    border-left: 1px solid rgba(34, 36, 38, 0.15);
+    border-radius: 0.285714rem;
+    border-top: 1px solid rgba(34, 36, 38, 0.15);
+    display: inline-block;
+    height: 39px;
+    line-height: 38px;
+    margin-left: 57px;
+    position: absolute;
+    text-align: center;
+    width: 197px;
+}

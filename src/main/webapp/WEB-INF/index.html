@@ -1,0 +1,41 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Kinbook主页</title>
+    <script type="text/javascript"
+		src="static/js/jquery.min.js"></script>
+    <script type="text/javascript">
+    function showUser(){
+		var uid = 1;
+		$.ajax({
+			url : 'book/showBasicBookInfo.action',
+			data : {
+				id : uid
+			},
+			dataType : 'json', // 很重要!!!. 预期服务器返回的数据类型
+			error : function() {
+			},
+			success : function(data) {
+				alert(data[0].book_name) ;
+			}
+		});
+	}
+    </script>
+</head>
+<a href="page/skip.action?file=booklist/booklist">浩哥傻逼</a>
+<br/>
+<a href="page/skip.action?file=category/cate">浩哥傻逼</a>
+<br/>
+<a href="page/skip.action?file=html/index">浩哥傻逼</a>
+<div >
+	<table align="center">
+	  <tr>
+	    <th><a href="page/skip.action?file=tmp/index">beyond+bootstrap</a></th>
+	    <th><button onclick="showUser()">显示用户json串</button></th>
+	  </tr>
+	</table>
+</div>
+
+<img alt="kinbook" src="static/img/btn.png"/>
+<br/>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>完善个人信息</title>
+    <link type="text/css" rel="stylesheet" href="../css/reset.css">
+    <link type="text/css" rel="stylesheet" href="../css/common.css">
+    <link type="text/css" rel="stylesheet" href="../css/info.css">
+    <link type="text/css" rel="stylesheet" href="../css/semantic.min.css">
+    <link type="text/css" rel="stylesheet" href="../css/city.css">
+</head>
+<body>
+<div class="header"></div>
+<div class="mainTop">
+    <span>完善资料</span>
+</div>
+<div class="ui stackable two column very relaxed grid container main" style="position:relative;">
+    <div class="left column">
+        <div class="ui segment mainLeft" style="border: none;box-shadow: 0">
+            <div class="touXiang">
+                <img src="../img/weige.jpg">
+            </div>
+            <div class="changeP">
+                <img src="../img/shuaxin.png"/>
+                <div>换个丑法</div>
+            </div>
+            <div class="upload"><button class="ui green button">上传</button></div>
+        </div>
+    </div>
+    <div class="ui vertical divider">
+        填写资料
+    </div>
+    <div class="right column">
+        <div class="ui segment mainRight" style="border: none;box-shadow: 0">
+            <div class="uniqueInfo">
+                <div class="uniqueFont">必填资料</div>
+                <div class="kindleEmail"><span>绑定kindle Email:</span>
+                    <div class="ui right labeled input">
+                        <input placeholder="请输入邮箱.." type="text">
+                        <div class="ui basic label">.com</div>
+                    </div>
+                </div>
+            </div>
+            <div class="otherInfo">
+                <div class="otherFont">其他资料</div>
+                <div class="job">
+                    <span>从事行业:</span>
+                    <select name="dropdown" class="ui dropdown">
+                        <option value="">选择</option>
+                        <option value="net">互联网</option>
+                        <option value="sale">销售</option>
+                        <option value="eco">金融</option>
+                        <option value="edu">教育</option>
+                    </select>
+                </div>
+                <div class="edu">
+                    <span>学历:</span>
+                    <select name="dropdown1" class="ui dropdown">
+                        <option value="">选择</option>
+                        <option value="1">幼儿园</option>
+                        <option value="2">小学</option>
+                        <option value="3">中学</option>
+                        <option value="4">高中</option>
+                    </select>
+                </div>
+                <div class="date">
+                    <span>
+                        出生日期:
+                    </span>
+                    <div id="pickDate" class="inline laydate-icon"></div>
+                </div>
+                <div id="content-wrap">
+                    <div id="content-left" class="demo">
+                        <form action="" name="form1">
+                            <div class="infolist">
+                                <lable>所在地区：</lable>
+                                <div class="liststyle">
+                                <span id="Province">
+                                    <i>请选择省份</i>
+                                    <ul>
+                                        <li><a href="javascript:void(0)" alt="请选择省份">请选择省份</a></li>
+                                    </ul>
+                                    <input type="hidden" name="cho_Province" value="请选择省份">
+                                </span>
+                                <span id="City">
+                                    <i>请选择城市</i>
+                                    <ul>
+                                        <li><a href="javascript:void(0)" alt="请选择城市">请选择城市</a></li>
+                                    </ul>
+                                    <input type="hidden" name="cho_City" value="请选择城市">
+                                </span>
+                                <span id="Area">
+                                    <i>请选择地区</i>
+                                    <ul>
+                                        <li><a href="javascript:void(0)" alt="请选择地区">请选择地区</a></li>
+                                    </ul>
+                                    <input type="hidden" name="cho_Area" value="请选择地区">
+                                </span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="content-right"></div>
+                </div>
+                <div class="sexy">
+                <span>
+                    性别
+                      <div class="ui inline dropdown">
+                          <div class="text">
+                              <img class="ui avatar image" src="../img/stevie.jpg">
+                              选择性别
+                          </div>
+                          <i class="dropdown icon"></i>
+                          <div class="menu">
+                              <div class="item">
+                                  <img class="ui avatar image" src="../img/stevie.jpg">
+                                 &nbsp;&nbsp;&nbsp;&nbsp;女&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                              </div>
+                              <div class="item">
+                                  <img class="ui avatar image" src="../img/elliot.jpg">
+                                  &nbsp;&nbsp;&nbsp;&nbsp;男&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                              </div>
+                          </div>
+                      </div>
+                </span>
+                </div>
+                <div class="rightUp"><button class="ui green button">填写完毕</button></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/jquery-1.8.3.min.js"></script>
+<script src="../js/jquery.cityselect.js"></script>
+<script src="../js/city.min.js"></script>
+<script src="../js/semantic.min.js"></script>
+<script src="../js/laydate.js"></script>
+<script>
+          $(function(){ //调用插件
+            $.fn.citySelect();
+            laydate.skin('molv');//切换皮肤，请查看skins下面皮肤库
+	        laydate({elem: '#demo'});//绑定元素
+          });
+          $('.dropdown').dropdown();
+          $('.ui.checkbox').checkbox();
+          laydate({
+            elem: '#pickDate',
+            format: 'YYYY年MM月DD日',
+            festival: true, //显示节日
+            choose: function(datas){ //选择日期完毕的回调
+
+            }
+          });
+</script>
+</body>
+</html>
